@@ -2,11 +2,9 @@
   type: map
   contents:
   - name: Full Name
-    value: Otilia Stretcu
+    value: Brian Kondracki
   - name: Contact
-    value: otiliastr [at] gmail [dot] com
-  - name: Languages
-    value: Romanian (native), English (fluent), Spanish (beginner), German (beginner), Swedish (beginner)
+    value: bkondracki [at] cs [dot] stonybrook [dot] edu
 
 - title: Research Areas
   type: list
@@ -18,52 +16,32 @@
 - title: Education
   type: table
   contents:
-  - title: Carnegie Mellon University – Ph.D. in Machine Learning
-    year: 2015 - 2021
-    location: USA
+  - title: Stony Brook University – Ph.D. in Computer Science 
+    year: 2019 - Present
+    location: Stony Brook, NY
     description:
-    - 'Co-advised by <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom Mitchell</b></a> and <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
-    - 'GPA: 4.0 (4.0 scale)'
-    - 'Thesis: Curriculum Learning'
-    - 'Thesis committee: Tom Mitchell, Barnabàs Pòczos, Ruslan Salakhutdinov, Rich Caruana'
-  - title: Carnegie Mellon University – M.S. in Machine Learning
-    year: 2015 - 2017
-    location: USA
+    - 'Advised by <a href="https://securitee.org" target="_blank"><b>Prof. Nick Nikiforakis</b></a>'
+  - title: Stony Brook University – M.S. in Computer Science 
+    year: 2017 - 2018
+    location: Stony Brook, NY
     description:
-    - 'Co-advised by <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a> and <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
-    - 'GPA: 4.0 (4.0 scale)'
-    - 'Thesis: <i> Understanding the Neural Basis of Speech Production Using Machine Learning </i>'
-    - 'Master’s degree requirements completed while working towards obtaining my Ph.D.'
-  - title: University of Cambridge – Master of Philosophy (M.Phil.) in Advanced Computer Science
-    year: 2014 - 2015
-    location: UK
+  - title: Stony Brook University – B.Sc. in Computer Science 
+    year: 2014 - 2017
+    location: Stony Brook, NY
     description:
-    - 'Advised by <a href="https://www.cl.cam.ac.uk/~pl219/" target="_blank"><b>Prof. Pietro Lió</b></a>'
-    - 'Thesis: <i>Machine Learning Methods for Computational Microscopy</i>'
-    - 'Grade: Pass with Distinction'
-  - title: <b>Linköping University – Erasmus Exchange Student</b>
-    year: 2012 - 2013
-    location: Sweden
-    description:
-      - 'I spent the third year of my undergraduate studies as an Erasmus exchange student at Linköping University, Sweden'
-  - title: Politehnica University of Timisoara – B.Eng. in Computer Science and Information Technology
-    year: 2010 - 2014
-    location: Romania
-    description:
-    - 'GPA: 9.98 (scale 10.0)'
-    - '1<sup>st</sup> out of 140 students'
+    - 'Concentration in Computer Security'
 
 - title: Work Experience
   type: table
   contents:
-  - title: 'Research Scientist at Google AI'
-    year: 2021 - now
-    location: USA
+  - title: 'Graduate Research Assistant'
+    year: 2018 - Present
+    location: Stony Brook University
     description:
       - 'Mountain View, CA, USA'
-  - title: 'Software Engineering Intern at Google Research'
-    year: 'Summer 2018 <br/> & <br/> Spring 2019'
-    location: USA
+  - title: 'Software Engineering Intern at Facebook Inc.'
+    year: 'Summer 2021'
+    location: Menlo Park, CA
     description:
     - '<a href="https://ai.googleblog.com/2016/10/graph-powered-machine-learning-at-google.html" target="_blank"><b>Expander team</b></a> in <a href="https://ai.google/research/" target="_blank"><b>Google Research</b></a> , Mountain View, CA, USA'
     - 'Research on deep learning models for graph-based semi-supervised learning, published at NeurIPS 2019.'

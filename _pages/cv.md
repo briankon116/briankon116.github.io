@@ -54,7 +54,7 @@ nav: cv
 						<div class="row">
 							{% if content.year %}
 								<div class="col-xs-2 cl-sm-2 col-md-auto text-left" style="width: 90px;">
-									<span class="badge font-weight-bold light-green darken-1 text-uppercase align-middle" style="width: 90px;">
+									<span class="badge font-weight-bold orange darken-1 text-uppercase align-middle" style="width: 90px;">
 										{{ content.year }}
 									</span>
 								</div>
@@ -111,7 +111,7 @@ nav: cv
                         <div class="row">
                             {% if content.year %}
                                 <div class="col-xs-2 cl-sm-2 col-md-auto text-left" style="width: 90px;">
-                                    <span class="badge font-weight-bold light-green darken-1 text-uppercase align-middle" style="width: 90px;">
+                                    <span class="badge font-weight-bold orange darken-1 text-uppercase align-middle" style="width: 90px;">
                                         {{ content.year }}
                                     </span>
                                 </div>
