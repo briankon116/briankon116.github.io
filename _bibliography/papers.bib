@@ -1,11 +1,26 @@
 ---
 ---
+@inproceedings{kondracki2022droid,
+  title={The Droid is in the Details: Environment-aware Evasion of Android Sandboxes},
+  author={Kondracki, Brian and Azad, Babak Amin and Miramirkhani, Najmeh and Nikiforakis, Nick},
+  booktitle={Proceedings of the 29th Network and Distributed System Security Symposium},
+  year={2022},
+  month={2},
+  abbr={NDSS},
+  abstract={{Malware sandboxes have long been a valuable tool for detecting and analyzing malicious software. The proliferation of mobile devices and, subsequently, mobile applications, has led to a surge in the development and use of mobile device sandboxes to ensure the integrity of application marketplaces. In turn, to evade these sandboxes, malware has evolved to suspend its malicious activity when it is executed in a sandbox environment. Sophisticated malware sandboxes attempt to prevent sandbox detection by patching runtime properties indicative of malware- analysis systems.
+In this paper, we propose a set of novel mobile-sandbox- evasion techniques that we collectively refer to as “environment- aware” sandbox detection. We explore the distribution of artifacts extracted from readily available APIs in order to distinguish real user devices from sandboxes. To that end, we identify Android APIs that can be used to extract environment-related features, such as artifacts of user configurations (e.g. screen brightness), population of files on the device (e.g. number of photos and songs), and hardware sensors (e.g. presence of a step counter).
+By collecting ground truth from real users and Android sandboxes, we show that attackers can straightforwardly build a classifier capable of differentiating between real Android devices and well-known mobile sandboxes with 98.54% accuracy. More- over, to demonstrate the inefficacy of patching APIs in sandbox environments individually, we focus on feature inconsistencies between the claimed manufacturer of a sandbox (Samsung, LG, etc.) and real devices from these manufacturers. Our findings emphasize the difficulty of creating robust sandbox environments regardless of their underlying platform being an emulated environment, or an actual mobile device. Most importantly, our work signifies the lack of protection against “environment-aware” sandbox detection in state-of-the-art mobile sandboxes which can be readily abused by mobile malware to evade detection and increase their lifespan.}}
+}
+
 @inproceedings{kondracki2021catching,
   title={Catching Transparent Phish: Analyzing and Detecting MITM Phishing Toolkits},
   author={Kondracki, Brian and Azad, Babak Amin and Starov, Oleksii and Nikiforakis, Nick},
-  booktitle={Proceedings of the ACM SIGSAC Conference on Computer and Communications Security (CCS)},
+  booktitle={Proceedings of the ACM SIGSAC Conference on Computer and Communications Security},
   year={2021},
   month={11},
+  description={CSAW 2021 Finalist},
+  abbr={CCS},
+  pdf={catching_transparent_phish.pdf},
   abstract={{For over a decade, phishing toolkits have been helping attackers automate and streamline their phishing campaigns. Man-in-the- Middle (MITM) phishing toolkits are the latest evolution in this space, where toolkits act as malicious reverse proxy servers of online services, mirroring live content to users while extracting cre- dentials and session cookies in transit. These tools further reduce the work required by attackers, automate the harvesting of 2FA- authenticated sessions, and substantially increase the believability of phishing web pages.
 In this paper, we present the first analysis of MITM phishing toolkits used in the wild. By analyzing and experimenting with these toolkits, we identify intrinsic network-level properties that can be used to identify them. Based on these properties, we develop a machine learning classifier that identifies the presence of such toolkits in online communications with 99.9% accuracy.
 We conduct a large-scale longitudinal study of MITM phishing toolkits by creating a data-collection framework that monitors and crawls suspicious URLs from public sources. Using this infrastruc- ture, we capture data on 1,220 MITM phishing websites over the course of a year. We discover that MITM phishing toolkits occupy a blind spot in phishing blocklists, with only 43.7% of domains and 18.9% of IP addresses associated with MITM phishing toolkits present on blocklists, leaving unsuspecting users vulnerable to these attacks. Our results show that our detection scheme is resilient to the cloaking mechanisms incorporated by these tools, and is able to detect previously hidden phishing content. Finally, we propose methods that online services can utilize to fingerprint requests origi- nating from these toolkits and stop phishing attempts as they occur.}}
@@ -14,9 +29,13 @@ We conduct a large-scale longitudinal study of MITM phishing toolkits by creatin
 @inproceedings{kaleli2021err,
   title={To Err. Is Human: Characterizing the Threat of Unintended URLs in Social Media},
   author={Kaleli, Beliz and Kondracki, Brian and Egele, Manuel and Nikiforakis, Nick and Stringhini, Gianluca},
-  booktitle={Proceedings of the 28th Network and Distributed System Security Symposium (NDSS)},
+  booktitle={Proceedings of the 28th Network and Distributed System Security Symposium},
   year={2021},
   month={2},
+  abbr={NDSS},
+  pdf={to_err_is_human.pdf},
+  code={https://github.com/belizkaleli/TypoNoMo},
+  website={https://ndss2021.how},
   abstract={{To make their services more user friendly, online so- cial media platforms automatically identify text that corresponds to URLs and render it as clickable links. In this paper, we show that the techniques used by such services to recognize URLs are often too permissive and can result in unintended URLs being displayed in social network messages. Among others, we show that popular platforms (such as Twitter) will render text as a clickable URL if a user forgets a space after a full stop at the end of a sentence, and the first word of the next sentence happens to be a valid Top Level Domain. Attackers can take advantage of these unintended URLs by registering the corresponding domains and exposing millions of Twitter users to arbitrary malicious content. To characterize the threat that unintended URLs pose to social media users, we perform a large-scale study of unintended URLs in tweets over a period of 7 months. By designing a classifier capable of differentiating between intended and unintended URLs posted in tweets, we find more than 26K unintended URLs posted by accounts with tens of millions of followers. As part of our study, we also register 45 unintended domains and quantify the traffic that attackers can get by merely registering the right domains at the right time. Finally, due to the severity of our findings, we propose a lightweight browser extension which can, on the fly, analyze the tweets that users compose and alert them of potentially unintended URLs and raise a warning, allowing users to fix their mistake before the tweet is posted.}}
 }
 
@@ -27,16 +46,21 @@ We conduct a large-scale longitudinal study of MITM phishing toolkits by creatin
   pages={3613--3624},
   year={2021},
   month={4},
+  abbr={WWW},
+  pdf={where_are_you_taking_me.pdf},
+  code={https://github.com/jszurdi/ODIN/},
   abstract={{Illicit website owners frequently rely on traffic distribution systems (TDSs) operated by less-than-scrupulous advertising networks to ac- quire user traffic. While researchers have described a number of case studies on various TDSs or the businesses they serve, we still lack an understanding of how users are differentiated in these ecosystems, how different illicit activities frequently leverage the same advertise- ment networks and, subsequently, the same malicious advertisers. We design ODIN (Observatory of Dynamic Illicit ad Networks), the first system to study cloaking, user differentiation and business in- tegration at the same time in four different types of traffic sources: typosquatting, copyright-infringing movie streaming, ad-based URL shortening, and illicit online pharmacy websites.
 ODIN performed 874,494 scrapes over two months ( June 19, 2019– August 24, 2019), posing as six different types of users (e.g., mobile, desktop, and crawler) and accumulating over 2TB of data. We ob- served 81% more malicious pages compared to using only the best performing crawl profile by itself. Three of the traffic sources we study redirect users to the same traffic broker domain names up to 44% of the time and all of them often expose users to the same malicious advertisers. Our experiments show that novel cloaking techniques could decrease by half the number of malicious pages observed. Worryingly, popular blacklists do not just suffer from the lack of coverage and delayed detection, but miss the vast majority of malicious pages targeting mobile users. We use these findings to design a classifier, which can make precise predictions about the likelihood of a user being redirected to a malicious advertiser.}}
 }
 
 @inproceedings{kondracki2020meddling,
-  title={Meddling middlemen: Empirical analysis of the risks of data-saving mobile browsers},
+  title={Meddling middlemen: Empirical Analysis of the Risks of Data-saving Mobile Browsers},
   author={Kondracki, Brian and Aliyeva, Assel and Egele, Manuel and Polakis, Jason and Nikiforakis, Nick},
-  booktitle={IEEE Symposium on Security and Privacy (SP)},
+  booktitle={IEEE Symposium on Security and Privacy},
   pages={810--824},
   year={2020},
   organization={IEEE},
+  abbr={S&P},
+  pdf={meddling_middlemen.pdf},
   abstract={{Mobile browsers have become one of the main mediators of our online activities. However, as web pages continue to increase in size and streaming media on-the-go has become commonplace, mobile data plan constraints remain a significant concern for users. As a result, data-saving features can be a differentiating factor when selecting a mobile browser. In this paper, we present a comprehensive exploration of the security and privacy threat that data-saving functionality presents to users. We conduct the first analysis of Android's data-saving browser (DSB) ecosystem across multiple dimensions, including the characteristics of the various browsers' infrastructure, their application and protocol-level behavior, and their effect on users' browsing experience. Our research unequivocally demonstrates that enabling data-saving functionality in major browsers results in significant degradation of the user's security posture by introducing severe vulnerabilities that are not otherwise present in the browser during normal operation. In summary, our experiments show that enabling data savings exposes users to (i) proxy servers running outdated software, (ii) man-in-the-middle attacks due to problematic validation of TLS certificates, (iii) weakened TLS cipher suite selection, (iv) lack of support of security headers like HSTS, and (v) a higher likelihood of being labelled as bots. While the discovered issues can be addressed, we argue that data-saving functionality presents inherent risks in an increasingly-encrypted Web, and users should be alerted of the critical savings-vs-security trade-off that they implicitly accept every time they enable such functionality.}}
 }
