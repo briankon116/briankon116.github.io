@@ -37,6 +37,9 @@
     year: 'Summer 2021'
     location: Menlo Park, CA
     description:
+    - Member of Network Analytics team
+    - Designed and developed data pipelines to automate the reporting of network performance
+    - Responded to network outage events, troubleshooting solutions to minimize service downtime
   - title: 'IT Technician at the Faculty Student Accociation of Stony Brook University'
     year: 2017 - 2018 
     location: Stony Brook, NY
@@ -83,12 +86,15 @@
   #   - '<a href="https://www.iie.org/Programs/GE-Foundation-Scholar-Leaders" target="_blank"><b>GE (General Electric) Foundation Scholar Leaders Program </b></a> (2012)'
   - year: Awards
     items:
+    - 'Stony Brook University Computer Science "Excellence in Granduate Student Research Award" recipient (2021)'
     - 'Best talk award at the <a href="https://www3.cs.stonybrook.edu/~grd/files/GRD_2021_FinalBooklet.pdf" target="_blank"><b>Stony Brook Computer Science Graduate Research Day</b></a> (2021)'
     - '<a href="https://security.opera.com/hall-of-fame/" target="_blank"><b>Opera Security bug bounty hall of fame</b></a> (2019)'
 
 - title: Teaching Experience
   type: table
   contents:
+  - title: '<b>Instructor</b> for <b>WSE 380: Honeypots and Intrusion Detection</b>'
+    year: Spring 2022
   - title: '<b>Instructor</b> for <b>WSE 380: Honeypots and Intrusion Detection</b>'
     year: Fall 2021
     location: Stony Brook University
