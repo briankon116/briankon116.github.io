@@ -25,7 +25,7 @@ address: <a href="https://cs.stonybrook.edu" class="page-description" target="_b
         </div>
 
         <p>
-            I'm a Ph.D. candidate working in the <a href="https://securitee.org/lab" target="_blank">Pragsec Lab</a> at Stony Brook University under the guidance of <a href="https://securitee.org" target="_blank">Professor Nick Nikiforakis</a>.
+            I am a cybersecurity researcher working in the <a href="https://securitee.org/lab" target="_blank">Pragsec Lab</a> at Stony Brook University under the guidance of <a href="https://securitee.org" target="_blank">Professor Nick Nikiforakis</a>, where I earned a PhD in Computer Science.
         </p>
         
         <p>
